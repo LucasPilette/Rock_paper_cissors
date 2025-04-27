@@ -1,3 +1,36 @@
-*{
-    background-color: aqua;
+.buttons{
+    margin: 10vh 0 10vh 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons > button{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: larger;
+    background-color: rgb(197, 228, 194);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+}
+
+.score{
+    padding-left: 10vw;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.replay{
+    padding: 15px;
+}
+
+.win{
+    color: green;
+}
+
+.loose{
+    color: red;
 }
